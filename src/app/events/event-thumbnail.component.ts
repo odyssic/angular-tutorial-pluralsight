@@ -4,7 +4,6 @@ import { Component, EventEmitter, Input, Output } from "@angular/core";
   selector: "event-thumbnail",
   template: `
     <div>
-      <hr />
       <div class="well hoverwell thumbnail">
         <h2>{{ event.name }}</h2>
         <div>Date: {{ event.date }}</div>
