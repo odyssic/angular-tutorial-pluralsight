@@ -9,6 +9,7 @@ $("#elemId").width();
 import { EventsAppComponent } from "./events-app.component";
 
 import { EventListComponent } from "./events/events-list.component";
+import { EventService } from "./events/shared/event.service";
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { EventListComponent } from "./events/events-list.component";
     NavBarComponent,
   ],
   imports: [BrowserModule],
+  providers: [EventService],
   bootstrap: [EventsAppComponent],
 })
 export class AppModule {}
