@@ -7,7 +7,8 @@ import { Component } from "@angular/core";
     `
       .nav.navbar-nav {
         font-size: 15px;
-        height: 2%;
+        height: 8px;
+        padding: none;
       }
       #searchForm {
         margin-right: 100px;
